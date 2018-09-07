@@ -1,24 +1,57 @@
-﻿<!DOCTYPE html>
-<html>
-<head lang="en">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"/>	
-		<title>我的主页</title>
-
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jumbotron</title>
+	<link rel="stylesheet" href="bootstrap.css">
+	<script src="bootstrap.min.js"></script>
+	<script src="jquery-3.3.1.min.js"></script>
+	<style>
+		.onepage{
+			height:850px;
+		}
+		.onepage-bg{
+			height:850px;
+			width:100%
+			position:absolute;
+			background-position: center center;
+			background-size: cover;
+		}
+		#onepagebg{
+			background-image: url("images/topicon.png");
+		}
+		.jumbotron {
+			padding-top: 180px;
+			padding-bottom: 30px;
+			margin-bottom: 30px;
+			color: inherit;
+			background: rgba(255,255,255,0);
+}
+	#head,
+	#text{
+	padding-top:50px;
+	}
+	</style>
 </head>
 <body>
-<h1 align="center" >helloworld</h1>
-<p align="center">欢迎来到我的网站</p></br>
-<p align="center">麻雀虽小</p></br>
-<p align="center">五脏俱全</p></br>
-<p align="center">这就是我的世界</p></br>
-<p align="center"><a href="test.html" target="_blank"  style="color:green">点击跳转</a></p>
- <p align="center"><audio autoplay="auto"  loop="loop" controls="controls">
- <source src="music/Jam_onjuly.mp3" type="audio/mpeg">
- <source src="music/Jam_onjuly.ogg" type="audio/ogg">
-Your browser does not support the audio element.
- </audio></p>
-</body>
+<div class="onepage">
+	<div class="onepage-bg container-fluid" id="onepagebg">
+	<div class="container">
+		<div class="jumbotron">
+			<h1 id="head">Hello,world!</h1>
+			<p id="text">欢迎来到我的网站，在这里，你将充分感受到前端的魅力</p>
+			<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>	
+			<audio autoplay="auto"  loop="loop" >
+				 <source src="music/Jam_onjuly.mp3" type="audio/mpeg">
+				 <source src="music/Jam_onjuly.ogg" type="audio/ogg">
+				Your browser does not support the audio element.
+			</audio>
+		</div>
 
+	</div>
+	</div>
+</div>
+</body>
 
 </html>
