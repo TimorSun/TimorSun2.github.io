@@ -1,0 +1,155 @@
+/*
+*页头部分样式
+*
+*/
+#logo{
+    padding: 30px 0 30px 0;
+    width: 200px;
+}
+#seach{
+    padding: 30px 0 30px 0;
+
+}
+.navbar-default {
+    background-color: #fff;
+    border:none;
+    border-bottom: #d7d7d7 solid 1px;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #ffffff;
+    border-bottom: #3fb323 solid 3px;
+}
+#indicators{
+    padding: 50px 50px 200px 200px;
+
+}
+
+.carouselExampleIndicators{
+    width: fit-content;
+    height: fit-content;
+    padding-top: 180px;
+
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(136,136,136,0.5) ;
+}
+
+/*
+*
+*导航栏样式
+*
+*/
+.navbar {
+    border-bottom: #d7d7d7 solid 1px;
+    padding: 0.5rem 1rem 0rem 1rem;
+	border-radius: 0px;
+}
+.navbar-nav li{
+    width: 120px;
+    text-align: center;
+}
+/*
+*导航栏激活样式
+*/
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active {
+    color: #555;
+    background-color: #ffffff;
+    border-bottom: #3fb323 solid 3px;
+}
+
+/*
+*主内容的样式
+*/
+.thumbnail{
+	border: 1px solid #d7d7d7;
+	border-top: none;
+	padding: 0px;
+	margin:20px 0;
+}
+.thumbnail h3{
+	font-size: 15px;
+	line-height: 30px;
+	margin-top:0;
+}
+
+.content-meta span,
+.content-meta time{
+	margin-right: 10px;
+	color: #828282;
+}
+
+.content-meta img{
+	width: 32px;
+}
+
+.media-box{
+	height: 260px;
+	overflow: hidden;
+}
+.media-box img{
+	width: 100%;
+}
+
+/*
+* 底部面包屑
+*/
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+	 margin-top: 50px;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 0px;
+	border-bottom: 1px solid  #d7d7d7;
+}
+.icon-bow{
+	display: block;
+	width: 50px;
+	height: 21px;
+	background: #fff no-repeat 50% 50%;
+	margin: 0 auto;
+	margin-top: -30px;
+	padding: 0 10px;
+}
+/*
+*底部边栏的样式
+*/
+#bottom{
+	background: url( images/bottombg.png);
+	margin-top:100px;
+	
+	text-shadow: 1px 1px 1px #048465;
+
+}
+.semicircle{
+	background: url(images/bottom.png) repeat-x;
+	padding:20px 0;
+}
+
+#bottom h3{
+	font-size: 18px;
+	color: #075442;
+	text-shadow: 1px 1px 1px 03a67f;
+}
+#footer{
+	background:#34881f ; 
+	height:200px;
+	padding: 30px 0 20px 0;
+	color: #064536;
+	text-shadow: 1px 1px 1px #009571;
+}
+
